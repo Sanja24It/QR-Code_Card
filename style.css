@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
+   
+    background-color: hsl(220, 15%, 55%);
+}
+
+.container{
+    margin: 150px auto 0;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+   
+
+}
+
+.box-one{
+    flex-basis: 250px;
+    background: url(./images/image-qr-code.png) no-repeat center center / cover;
+    border-radius: 10px;
+   
+  
+   
+    
+}
+
+.box-two{
+    flex-basis: 80px;
+    padding: 10px 13px;
+
+}
+
+.box-two h1 ,.box-two p {
+ 
+ text-align: center;
+ font-size: 25px;
+}
+
+#gray{
+   
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding: 10px 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 375px) and(max-width: 678px){
+    .container{
+        margin: 150px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .box-one{
+flex-basis: 65%;
+    }
+    .box-two{
+    flex-basis: 35%;
+    }
+
+
+    .attribution { font-size: 11px; text-align: center;
+        margin-top: 0; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    
+}
